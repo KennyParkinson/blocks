@@ -1,2 +1,2 @@
-# blocks
+# BLOCKS
 Sliding blocks game.
