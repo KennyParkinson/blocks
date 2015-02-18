@@ -11,4 +11,9 @@ public class VerticalBlock extends Block {
 	public boolean isValidDirection(Direction dir) {
 		return dir == Direction.UP || dir == Direction.DOWN;
 	}
+
+	@Override
+	public boolean getType() {
+		return false;
+	}
 }

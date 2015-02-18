@@ -8,6 +8,8 @@ package pt314.blocks.game;
 public abstract class Block {
 	
 	public Block() {}
+	
+	public abstract boolean getType();
 
 	public abstract boolean isValidDirection(Direction dir);
 }

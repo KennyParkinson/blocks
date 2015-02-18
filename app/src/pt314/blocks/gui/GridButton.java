@@ -8,7 +8,7 @@ public class GridButton extends JButton {
 	private int col;
 
 	public GridButton(int row, int col) {
-		super("(" + row + ", " + col + ")");
+//		super("(" + row + ", " + col + ")");
 		this.row = row;
 		this.col = col;
 	}

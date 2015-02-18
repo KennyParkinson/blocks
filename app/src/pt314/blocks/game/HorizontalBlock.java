@@ -11,4 +11,9 @@ public class HorizontalBlock extends Block {
 	public boolean isValidDirection(Direction dir) {
 		return dir == Direction.LEFT || dir == Direction.RIGHT;
 	}
+
+	@Override
+	public boolean getType() {
+		return false;
+	}
 }
